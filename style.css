@@ -17,13 +17,13 @@
 }
 .images > img.current{
     left: 0;
-    transform: translateY(0);
+    transform: translateX(0);
     z-index: 1;
 }
 .images > img.leave{
-    transform: translateY(-100%);
+    transform: translateX(-100%);
     z-index: 1;
 }
 .images > img.enter{
-    transform: translateY(100%);
+    transform: translateX(100%);
 }
